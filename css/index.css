@@ -1,0 +1,39 @@
+html,body{
+	margin:0;
+	width:100vw;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	background:linear-gradient(45deg,#958BBA 0%, #AEA6CA 50%,#958BBA 100%);
+}
+
+main{
+	width:95vw;
+	height:95vh;
+	margin:0 auto 0 auto;
+	background:white;
+	display:flex;
+	flex-direction:column;
+	background:transparent;
+}
+
+main section#picture-area{
+	background:transparent;
+	height: 15vh;
+	width: 100%;
+}
+
+main section#picture-area div#picture{
+	height: 90%;
+	margin: auto;
+	aspect-ratio: 1 / 1;
+	background: white;
+	border-radius: 200px;
+}
+
+main section#page-content{
+	flex-grow:1;
+	background:white;
+	border-radius: 0 20px 0 20px;
+}

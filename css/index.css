@@ -5,7 +5,7 @@ html,body{
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
-	background:linear-gradient(45deg,#958BBA 0%, #AEA6CA 50%,#958BBA 100%);
+	background:linear-gradient(45deg,#958BBA 30%, #AEA6CA 50%,#958BBA 70%);
 }
 
 main{
@@ -25,15 +25,41 @@ main section#picture-area{
 }
 
 main section#picture-area div#picture{
-	height: 90%;
-	margin: auto;
+	height: 80%;
 	aspect-ratio: 1 / 1;
-	background: white;
-	border-radius: 200px;
+	margin-top: auto;
+	margin-bottom: auto;
+	/*margin: auto;*/
+	background: url("../pictures/file.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	border:5px solid white;
 }
 
 main section#page-content{
 	flex-grow:1;
 	background:white;
 	border-radius: 0 20px 0 20px;
+}
+
+@media (min-width:2048px){
+	main{
+		flex-direction:row;
+	}	
+
+	main section#picture-area{
+		background:transparent;
+		flex-grow:1;
+	}
+
+	main section#picture-area div#picture{
+		float:right;
+		margin-right: 10px;
+	}
+
+	main section#page-content{
+		width:100%;
+	}
 }

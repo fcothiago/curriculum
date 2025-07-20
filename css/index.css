@@ -47,8 +47,8 @@ main section#picture-area{
 main section#picture-area div#picture{
 	height: 80%;
 	aspect-ratio: 1 / 1;
-	margin-top: auto;
-	margin-bottom: auto;
+	margin-top: 0;
+	margin-bottom: 0;
 	/*margin: auto;*/
 	background: url("../pictures/file.jpeg");
 	background-size: cover;
@@ -79,10 +79,15 @@ main section#page-content nav select{
 
 main section#page-content nav *{
 	height: 100%;
-	font-size: 1rem;
+	font-size: 0.5rem;
+	overflow:hidden;
 	text-align:center;
 	background:transparent;
 	margin-top: 0.7rem;
+}
+
+main section#page-content nav option{
+	font-size: 1rem;
 }
 
 
@@ -100,19 +105,27 @@ main section#page-content nav select{
 @media (min-width:1024px){
 	main{
 		flex-direction:row;
+		align-items: stretch;
 	}	
 
 	main section#picture-area{
 		background:transparent;
+		height:100%;
 		flex-grow:1;
 	}
 
 	main section#picture-area div#picture{
 		float:right;
+		height: 15vh;
 		margin-right: 10px;
 	}
 
 	main section#page-content{
 		width:100%;
+	}
+
+	main section#page-content nav *{
+		height: 100%;
+		font-size: 1em;
 	}
 }

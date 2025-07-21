@@ -50,7 +50,7 @@ main section#picture-area div#picture{
 	margin-top: 0;
 	margin-bottom: 0;
 	/*margin: auto;*/
-	background: url("../pictures/file.jpeg");
+	background: url("../pictures/profile.jpeg");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;

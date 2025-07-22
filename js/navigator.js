@@ -6,10 +6,10 @@ addPattern('resume',"url('../pictures/backgrounds/educationbg.png')");
 addPattern('professional','linear-gradient(45deg,rgba(2, 195, 154, 1) 30%, rgba(67, 230, 194, 1) 50%, rgba(2, 195, 154, 1) 70%)');
 addPattern('portifolio','linear-gradient(45deg,rgba(2, 195, 154, 1) 20%, rgba(48, 227, 188, 1) 40%, rgba(2, 195, 154, 1) 60%)');
 const options = [
-	{value:'intro',text:'Intro',bg:'url("../pictures/profile.jpeg")'},
-	{value:'resume',text:'Formação e Certificados',bg:'url("../pictures/education.png")'},
-	{value:'professional',text:'Experiência',bg:'url("../pictures/professional.png")'},
-	{value:'portifolio',text:'Portifólio',bg:'url("../pictures/portifolio.png")'}
+	{value:'intro',text:'Intro',bg:'url("./pictures/profile.jpeg")'},
+	{value:'resume',text:'Formação e Certificados',bg:'url("./pictures/education.png")'},
+	{value:'professional',text:'Experiência',bg:'url("./pictures/professional.png")'},
+	{value:'portifolio',text:'Portifólio',bg:'url("./pictures/portifolio.png")'}
 ];
 const secselector = document.querySelector('#secselector');
 const prevbutton = document.querySelector('button#prevbtn');

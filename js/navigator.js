@@ -1,8 +1,8 @@
 //https://coolors.co/palette/05668d-028090-00a896-02c39a-f0f3bd
 import {updatePattern , addPattern} from "./bganimation.js";
 import {updatePosition} from "./picanimation.js"
-addPattern('intro',"url('../pictures/backgrounds/introbg.jpg')");
-addPattern('resume',"url('../pictures/backgrounds/educationbg.png')");
+addPattern('intro',"url('./pictures/backgrounds/introbg.jpg')");
+addPattern('resume',"url('./pictures/backgrounds/educationbg.png')");
 addPattern('professional','linear-gradient(45deg,rgba(2, 195, 154, 1) 30%, rgba(67, 230, 194, 1) 50%, rgba(2, 195, 154, 1) 70%)');
 addPattern('portifolio','linear-gradient(45deg,rgba(2, 195, 154, 1) 20%, rgba(48, 227, 188, 1) 40%, rgba(2, 195, 154, 1) 60%)');
 const options = [

@@ -2,14 +2,16 @@
 import {updatePattern , addPattern} from "./bganimation.js";
 import {updatePosition} from "./picanimation.js"
 addPattern('intro',"url('./pictures/backgrounds/introbg.jpg')");
-addPattern('resume',"url('./pictures/backgrounds/educationbg.png')");
-addPattern('professional','linear-gradient(45deg,rgba(2, 195, 154, 1) 30%, rgba(67, 230, 194, 1) 50%, rgba(2, 195, 154, 1) 70%)');
-addPattern('portifolio','linear-gradient(45deg,rgba(2, 195, 154, 1) 20%, rgba(48, 227, 188, 1) 40%, rgba(2, 195, 154, 1) 60%)');
+addPattern('resume',"url('./pictures/backgrounds/educationbg.jpg')");
+addPattern('professional',"url('./pictures/backgrounds/professional.jpg')");
+addPattern('portifolio',"url('./pictures/backgrounds/portifolio.jpg')");
+addPattern('contact',"url('./pictures/backgrounds/contact.jpg')");
 const options = [
-	{value:'intro',text:'Intro',bg:'url("./pictures/profile.jpeg")'},
+	{value:'intro',text:'Intro',bg:'url("./pictures/profile.png")'},
 	{value:'resume',text:'Formação e Certificados',bg:'url("./pictures/education.png")'},
 	{value:'professional',text:'Experiência',bg:'url("./pictures/professional.png")'},
-	{value:'portifolio',text:'Portifólio',bg:'url("./pictures/portifolio.png")'}
+	{value:'portifolio',text:'Portifólio',bg:'url("./pictures/portifolio.png")'},
+	{value:'contact',text:'Contato',bg:'url("./pictures/contact.png")'}
 ];
 const secselector = document.querySelector('#secselector');
 const prevbutton = document.querySelector('button#prevbtn');

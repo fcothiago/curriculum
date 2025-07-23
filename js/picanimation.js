@@ -18,7 +18,7 @@ const updatePosition = (current,items,bg) => {
 		const totalsize = picturearea.getBoundingClientRect().height;
 		const picturesize = picture.getBoundingClientRect().height;
 		const margin = (totalsize-picturesize)*(current/items);
-		picture.style['margin'] = `${margin}px 5px 0 0`;
+		picture.style['margin'] = `${margin}px 20px 0 0`;
 	}
 	if(bg)
 	{

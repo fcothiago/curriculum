@@ -1,0 +1,33 @@
+h1#name{
+	text-align:center;
+}
+
+p{
+	font-size: 1rem;
+	text-align: justify;
+}
+
+ul{
+	list-style-type:none;
+	display:grid;
+	width:100%;
+	grid-template-columns:1fr 1fr 1fr;
+}
+
+ul li{
+	margin-top:1rem;
+	margin-bottom:1rem;
+}
+
+
+div#profile-container{
+	display:flex;
+	justify-content:center;
+}
+
+img#profile{
+	width:25%;
+	border-radius:100%;
+	margin-left:auto;
+	margin-right:auto;
+}

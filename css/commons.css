@@ -2,3 +2,7 @@ body{
  	font-family: Arial, sans-serif; 
 	color:grey;	
 }
+
+p{
+	text-align:justify;
+}

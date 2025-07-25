@@ -1,0 +1,25 @@
+ul{
+        list-style-type:none;
+        display:grid;
+        grid-template-columns:1fr 1fr;
+}
+
+ul li{
+        margin-top:1rem;
+        margin-bottom:1rem;
+}
+
+ul li a{
+	display:block;
+	height:10rem;
+	margin:auto;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:row;
+}
+
+ul li a img{
+	margin:auto;
+	height:100%;
+}

@@ -2,7 +2,7 @@ div{
 	display:flex;
 	height:8rem;
 	flex-direction:row;
-	margin:0 0 3rem 0;
+	margin:3rem 0 3rem 0;
 }
 
 div:nth-child(2n){
@@ -15,11 +15,15 @@ div span.project{
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
-	background:grey;
+	background:linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
 	color:white;
 	border-radius:100%;
 }
 
+
+div:nth-child(2) span.project{
+	background:linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);	
+}
 
 div span.project span{
 	display:block;
@@ -27,7 +31,23 @@ div span.project span{
 }
 
 div span.description{
-	overflow:hidden;
+	text-align:justify;
 	padding:0 15px 0 15px;
+	display:flex;
+	flex-direction:column;
+}
+
+div span.description p:nth-child(1){
+	overflow:scroll;
+	margin:0;
+	padding:0;
+}
+
+div span.description p:nth-child(2){
+	font-size:0.8rem;
+}
+
+div span.description p:nth-child(2) span:nth-child(1){
+	font-weight:bold;
 }
 

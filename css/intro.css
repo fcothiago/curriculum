@@ -12,11 +12,13 @@ ul{
 	display:grid;
 	width:100%;
 	grid-template-columns:1fr 1fr 1fr;
+	padding:0;
 }
 
 ul li{
 	margin-top:1rem;
 	margin-bottom:1rem;
+	text-align:center;
 }
 
 
